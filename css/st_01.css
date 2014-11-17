@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{margin:0; padding:0}
+body, html{height:100%; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:url(../img/bg.jpg); overflow:hidden}
+a{text-decoration:none; color:#666}
+
+#cabecalho{float:left; top:0; width:100%; height:20%;}
+#cabecalho form{position:absolute; top:20px; left:20px; width:270px; height:130px;}
+#cabecalho form input{margin:5px 0; width:235px; padding:5px; background:#f1f1f2; border:1px solid #8ed8f8; color:#a7a9ac}
+#cabecalho nav{position:absolute; top:20px; right:20px; font-size:14px }
+#cabecalho nav a{padding:0 0 0 10px}
+
+form#pesquisar{
+	position:absolute;
+	margin:-140px 0 0 -350px; 
+	top:50%; 
+	left:50%; 
+	width:700px; 
+	height:320px;}
+	
+form#pesquisar img{position:absolute; margin:0px; width:700px; z-index:0}
+form#pesquisar input{
+	position:absolute;
+	margin:214px 0 0 3px;
+	width:617px; 
+	height:16px; 
+	padding:10px;
+	z-index:10;
+	border:none;
+	background:none;
+	z-index:10}
+	
+form#pesquisar p{position:absolute; margin:253px 0 30px 0;}
+form#pesquisar button{position:absolute; width:120px; height:35px; background:#f1f1f2; border:1px solid #8ed8f8; color:#a7a9ac; cursor:pointer}
+.pesquisa{margin:283px 0 0 0;}
+.filtro{margin:283px 0 0px 150px;}
+
+#rodape{float:left; bottom:0; width:100%; height:20%;}
+#rodape p{position:absolute; bottom:30px; right:20px;}
+
+.canto{border-radius:4px}

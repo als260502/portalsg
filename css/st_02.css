@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+*{margin:0; padding:0}
+body, html{height:100%; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:url(../img/bg.jpg);}
+a{text-decoration:none; color:#666}
+
+/*css da página de pesquisa*/
+
+#cabecalho{margin:0 auto; width:1000px;}
+#cabecalho nav{float: right;font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+#hdr{float: right;font-family:Arial, Helvetica, sans-serif; font-size:12px; margin: 0px 155px;}
+#cabecalho img{margin:10px 0 0 0; width:730px}
+#cabecalho form#pesquisar input{
+	position:relative; 
+	top:-36px; 
+	left:300px; 
+	width:414px;
+	height:16px;
+	padding:5px;
+	border:none; 
+	background:none;}
+#cabecalho form#pesquisar button{
+	position:relative;
+	top:-36px;
+	left: 320px;  
+	width:116px; 
+	height:26px; 
+	background:#f1f1f2; 
+	border:1px solid #8ed8f8; 
+	color:#a7a9ac; 
+	cursor:pointer;}
+
+#conteudo{margin:0 auto; width:1000px;}
+#conteudo #pesquisa{float:left;}
+#conteudo #pesquisa #linha{margin:0 0 20px 0; width:720px; height:230px; background:#fff;}
+#conteudo #pesquisa #linha img{float:right;margin:0 0 0 10px; width:720px; height:130px;}
+#conteudo #pesquisa #linha h1{width:550px; margin:20px 0 0 15px; color:#0095da;}
+#conteudo #pesquisa #linha h3{width:550px; margin:0 0 10px 15px; color:#006621; font-size:12px;}
+#conteudo #pesquisa #linha h2{width:550px; margin:0 0 10px 15px; color:#545454; font-size:12px}
+#conteudo #pesquisa #linha i{float:left;  width:550px; margin:0 0 10px 15px; color:#545454; font-size:12px}
+#conteudo #pesquisa #linha p{float:left; width:500px; margin:-15px 10px 0 0; text-align:right;color:#0095da}
+#conteudo #anuncio{float:right; margin:0; width:270px; text-align:center}
+#conteudo #anuncio img{margin: 0 0 20px 0; width:240px; height:120px; background:#fff;}
+
+
+/*css da página de cadastro*/
+
+#container{position:absolute; top:50%; left:50%; margin:-300px 0 0 -500px;width:1000px; height:600px;}
+
+#container form#enviar{width:420px;}
+#container form#enviar h2{margin:0 0 20px 0; text-decoration:underline; color:#ed1c24}
+#container form#enviar p{margin:5px 0 10px 0; font-size:10px; }
+#container form#enviar b{color:#ed1c24}
+
+#container form#enviar input[type=text] {
+	margin:5px 0; 
+	width:400px; 
+	height:15px; 
+	padding:5px; 
+	background:#f1f1f2; 
+	border:1px solid #8ed8f8; 
+	color:#a7a9ac}
+
+#container form#enviar input[type=checkbox]{margin:0 5px 0 0; height:15px}
+#container form#enviar button{margin:20px 0 0 0; width:120px; height:35px; background:#f1f1f2; border:1px solid #8ed8f8; color:#a7a9ac; cursor:pointer}
+
+
+/*css da página de anuncio*/
+
+#container form#anunciar{width:420px;}
+#container form#anunciar h2{margin:0 0 20px 0; text-decoration:underline; color:#ed1c24}
+#container form#anunciar p{margin:5px 0 10px 0; font-size:10px; }
+#container form#anunciar b{color:#ed1c24}
+
+#container form#anunciar input[type=text] {
+	margin:5px 0; 
+	width:430px; 
+	height:30px; 
+	padding:8px; 
+	background:#f1f1f2; 
+	border:1px solid #8ed8f8; 
+	color:#a7a9ac}
+
+#container form#anunciar textarea {
+	margin:5px 0; 
+	width:430px; 
+	height:130px; 
+	padding:8px; 
+	background:#f1f1f2; 
+	border:1px solid #8ed8f8; 
+	color:#a7a9ac;
+        resize:none}
+
+#container form#anunciar input[type=checkbox]{margin:0 5px 0 0; height:15px}
+#container form#anunciar button{margin:20px 0 0 0; width:120px; height:35px; background:#f1f1f2; border:1px solid #8ed8f8; color:#a7a9ac; cursor:pointer}
+
+#container #direita{
+	position:absolute;
+	top:60px;
+	right:10px;
+	margin:0 0 0 0;
+	width:460px; 
+	height:396px;
+	padding:20px 20px;
+	background:#f1f1f2; 
+	border:1px solid #8ed8f8;}
+	
+#container #direita h3{text-align:center; margin:10px 0 20px 0}
+#container #direita p{margin:0 0 15px 0; text-align:justify; line-height:20px;}
+
+/*classes reutilizáveis*/
+
+
+.canto{border-radius:3px}	
+.sombra{
+	-webkit-box-shadow: 0px 4px 1px 0px #d1d2d4;	
+	-moz-box-shadow: 0px 4px 1px 0px #d1d2d4;
+	box-shadow: 0px 4px 1px 0px #d1d2d4;}
+	
+.sombraimg{
+	-webkit-box-shadow: 0px 0 10px 0px #999;	
+	-moz-box-shadow:0px 0 10px 0px #999;
+	box-shadow: 0px 0 10px 0px #999;}
+        li{list-style: none;}
+        
